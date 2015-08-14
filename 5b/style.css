@@ -1,0 +1,72 @@
+* {
+    font-family: "Lucida Grande", sans-serif;
+}
+
+div {
+    width: 400px;
+    float: left;
+    border: 1px solid grey;
+    height: 100%;
+    margin: 5px;
+}
+
+h2 {
+    text-align: left;
+    border-bottom: 1px solid grey;
+    margin: 0px;
+    padding: 5px;
+    background-color: #ececec;
+}
+
+#hist td {
+    width: 200px;
+    text-align: right;
+}
+
+#hist td:first-child {
+    width: 100px;
+}
+
+#hist td div {
+    background-color:green;
+    height: 1em;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#wordcloud {
+    text-align: center;
+}
+
+#wordcloud ul {
+    list-style-type: none;
+}
+
+#wordcloud li {
+    display: inline-block;
+    margin: -10px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    color: green;
+}
+
+.word_xs {
+    font-size: 0.7em;
+}
+
+.word_s {
+    font-size: 0.9em;
+}
+
+.word_m {
+    font-size: 1.2em;
+}
+
+.word_l {
+    font-size: 2.5em;
+}
+
+.word_xxl {
+    font-size: 4em;
+    font-weight: bold;
+}

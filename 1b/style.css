@@ -1,0 +1,130 @@
+* {
+	/*border: 1px dashed silver;*/
+	margin: 0;
+}
+
+body {
+	background: #001F3D;
+	color: #C0C0C0;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 100pt;
+	text-align: center;
+	margin-top: 50px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16pt;
+	color: #66798B;
+	text-align: center;
+	margin-top: -27px;
+}
+
+h2.index {
+	letter-spacing: 26px;
+	padding-left: 30px;
+}
+
+h2.tables_r2 {
+	letter-spacing: 16px;
+}
+
+div.lists {
+	width: 500px;
+	margin: auto;
+}
+
+img {
+	width: 150px;
+}
+
+/************ MENU:BEGIN ************/
+
+nav, nav ul, nav li {
+	padding: 0px;
+}
+
+nav {
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	padding: 0px;
+}
+
+nav ul {
+	margin-left: 6px;
+	margin-right: -14px;
+	text-align: center;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav li:first-of-type {
+	float: left;
+}
+
+nav li:last-of-type {
+	float: right;
+}
+
+/************ MENU:END ************/
+
+a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: gold;
+	font-size: 28px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+}
+
+table {
+	margin: auto;
+	border-spacing: 5px;
+}
+
+tr {
+	margin: 10px;
+}
+
+th {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: silver;
+	text-transform: uppercase;
+}
+
+tbody.tables td {
+	background-color: rgba(255,255,255,0.1);
+	width: 20px;
+	height: 20px;
+}
+
+tbody.tables td:hover {
+	background-color: rgba(255,255,255,0.3);
+}
+
+li {
+	margin-top: 10px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+
+#image_holder {
+	width: 500px;
+}
